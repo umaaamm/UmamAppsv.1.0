@@ -1,0 +1,301 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".DetailPendaftarActivity">
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="10dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginTop="10dp"
+                                            android:orientation="vertical"
+                                            android:paddingBottom="15dp"
+                                            card_view:cardCornerRadius="0dp"
+                                            card_view:cardElevation="@dimen/cardview_default_elevation"
+                                            card_view:cardBackgroundColor="#FFF">
+
+                                            <LinearLayout
+                                                android:layout_marginBottom="5dp"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginTop="5dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical">
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:orientation="vertical">
+                                                    <ImageView
+                                                        android:id="@+id/thumbnail4"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="250dp"
+                                                        android:layout_alignParentTop="true"
+                                                        android:scaleType="centerCrop"
+                                                        android:src="@drawable/u" />
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="3"
+                                                    android:orientation="vertical">
+                                                    <RelativeLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent">
+                                                        <TextView
+                                                            android:id="@+id/title"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:maxLines="3"
+                                                            android:padding="8dp"
+                                                            android:text="Kurniawan Gigih Lutfi Umam"
+                                                            android:textColor="#222"
+                                                            android:textStyle="bold"
+                                                            android:textSize="20sp" />
+
+                                                        <TextView
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_below="@+id/title"
+                                                            android:maxLines="3"
+                                                            android:padding="8dp"
+                                                            android:text="Aku adalah umam, aku disini menjadi tim hore yang engga pernah ngapa ngapain, cita cita ku menjadi seorang kapiten."
+                                                            android:textColor="#666"
+                                                            android:textSize="14sp" />
+                                                    </RelativeLayout>
+                                                </LinearLayout>
+
+                                            </LinearLayout>
+                                        </android.support.v7.widget.CardView>
+
+
+                                    </LinearLayout>
+
+
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="10dp"
+                                        android:orientation="vertical"
+                                        android:paddingBottom="15dp"
+                                        card_view:cardCornerRadius="0dp"
+                                        card_view:cardElevation="@dimen/cardview_default_elevation"
+                                        card_view:cardBackgroundColor="#FFF">
+
+                                        <LinearLayout
+                                            android:layout_marginBottom="5dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:orientation="vertical">
+                                                <ImageView
+                                                    android:id="@+id/thumbnail"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="250dp"
+                                                    android:layout_alignParentTop="true"
+                                                    android:scaleType="centerCrop"
+                                                    android:src="@drawable/ki" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="3"
+                                                android:orientation="vertical">
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+                                                    <TextView
+                                                        android:id="@+id/title1"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:maxLines="3"
+                                                        android:padding="8dp"
+                                                        android:text="Khairin Syahputra"
+                                                        android:textColor="#222"
+                                                        android:textStyle="bold"
+                                                        android:textSize="20sp" />
+
+                                                    <TextView
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_below="@+id/title1"
+                                                        android:maxLines="3"
+                                                        android:padding="8dp"
+                                                        android:text="Saya disini dibagian mekanikal elektroniknya."
+                                                        android:textColor="#666"
+                                                        android:textSize="14sp" />
+                                                </RelativeLayout>
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+                                    </android.support.v7.widget.CardView>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal">
+
+                                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginTop="10dp"
+                                        android:orientation="vertical"
+                                        android:paddingBottom="15dp"
+                                        card_view:cardCornerRadius="0dp"
+                                        card_view:cardElevation="@dimen/cardview_default_elevation"
+                                        card_view:cardBackgroundColor="#FFF">
+
+                                        <LinearLayout
+                                            android:layout_marginBottom="5dp"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginRight="5dp"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:orientation="vertical">
+                                                <ImageView
+                                                    android:id="@+id/thumbnail1"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="250dp"
+                                                    android:layout_alignParentTop="true"
+                                                    android:scaleType="centerCrop"
+                                                    android:src="@drawable/pitk" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="3"
+                                                android:orientation="vertical">
+                                                <RelativeLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+                                                    <TextView
+                                                        android:id="@+id/title2"
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:maxLines="3"
+                                                        android:padding="8dp"
+                                                        android:text="Pipit Rahmayanti"
+                                                        android:textColor="#222"
+                                                        android:textStyle="bold"
+                                                        android:textSize="20sp" />
+
+                                                    <TextView
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_below="@+id/title2"
+                                                        android:maxLines="3"
+                                                        android:padding="8dp"
+                                                        android:text="Saya disini dibagian designer."
+                                                        android:textColor="#666"
+                                                        android:textSize="14sp" />
+                                                </RelativeLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </android.support.v7.widget.CardView>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
